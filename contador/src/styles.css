@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.card {
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+}
+
+.color-box.green {
+    background-color: green;
+    border-radius: 50%;
+    width: 4%;
+    height: 30px;
+    border: none;
+    padding: 2%;
+    margin: 1%;
+}
+
+.color-box.red {
+    background-color: red;
+    border-radius: 50%;
+    width: 4%;
+    height: 30px;
+    border: none;
+    padding: 2%;
+    margin: 1%;
+}
+
+.Contenedor {
+        border: 2px solid white;
+        padding: 10px;
+}
+
+.btn-danger {
+    width: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.btn-success {
+    width: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
