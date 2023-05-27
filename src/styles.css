@@ -1,32 +1,35 @@
 body {
     background-color: black;
     color: white;
-}
-
-.card {
-    background-color: black;
-    color: white;
-    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
 }
 
 .color-box.green {
     background-color: green;
     border-radius: 50%;
-    width: 4%;
+    width: 13%;
     height: 30px;
     border: none;
-    padding: 2%;
-    margin: 1%;
+    margin: 25%;
+    margin-top: -15%;
 }
 
 .color-box.red {
     background-color: red;
     border-radius: 50%;
-    width: 4%;
+    width: 13%;
     height: 30px;
     border: none;
-    padding: 2%;
-    margin: 1%;
+}
+
+.Botones h1 {
+    margin-top: -15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .Contenedor {
@@ -34,14 +37,46 @@ body {
         padding: 10px;
 }
 
-.btn-danger {
-    width: 5%;
+.btnDecrementar {
+    width: 20%;
+    height: 25px;
+    margin: 5%;
+    background-color: red;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    margin-right: 10%;
+    color: white;
+    border: none;
 }
 
-.btn-success {
-    width: 5%;
+.btnReset {
+    width: 20%;
+    height: 25px;
+    background-color: gray;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    margin: 5%;
+    color: white;
+    border: none;
 }
+
+.btnIncrementar {
+    width: 20%;
+    height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 5%;
+    background-color: green;
+    margin-right: 10%;
+    color: white;
+    border: none;
+}
+
+.text-success {
+    color: green;
+  }
+  
+  .text-danger {
+    color: red;
+  }
+  
